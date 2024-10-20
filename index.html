@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BeyAft</title>
+    <link rel="stylesheet" href="Style/styles.css">
+    <link rel="stylesheet" href="Style/main.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="MainBody">
+        <!-- Top - Header -->
+        <nav>
+            <section>
+                <!-- Logo -->
+                <article>
+                    <img src="Asset/image.png" alt="Logo">
+                </article>
+
+                <article>
+                    <button class="btn-ctp">
+                        Publier une annonce
+                    </button>
+
+                    <picture>
+                        <input type="search" id="search" placeholder="Rechercher des annonces">
+                        <i class="bi bi-search"></i>
+                    </picture>
+                </article>
+                <article>
+                    <i class="bi-person-fill"></i>
+                </article>
+            </section>
+        </nav>
+
+        <!-- Header -->
+        <header>
+            <section>
+                <article>
+                    <p>Fitness</p>
+                    <i class="bi-circle-fill"></i>
+                </article>
+                <article>
+                    <p>Lifestyle et bien-être</p>
+                    <i class="bi-circle-fill"></i>
+                </article>
+                <article>
+                    <p>Décoration</p>
+                    <i class="bi-circle-fill"></i>
+                </article>
+                <article>
+                    <p>Cosmétiques</p>
+                    <i class="bi-circle-fill"></i>
+                </article>
+                <article>
+                    <p>Automobile</p>
+                    <i class="bi-circle-fill"></i>
+                </article>
+                <article>
+                    <p>Animaux de compagnie</p>
+                    <i class="bi-circle-fill"></i>
+                </article>
+                <article>
+                    <p>Professionnels</p>
+                    <i class="bi-circle-fill"></i>
+                </article>
+            </section>
+        </header>
+
+        <!-- Main -->
+        <main>
+            <section id="MainHome">
+                <article>
+                    <picture>
+                        <img src="Asset/img.png" alt="">
+                    </picture>
+                    <picture>
+                        <img src="Asset/img.png" alt="">
+                    </picture>
+                    <picture>
+                        <img src="Asset/img.png" alt="">
+                    </picture>
+                    <picture>
+                        <img src="Asset/img.png" alt="">
+                    </picture>
+                    <picture>
+                        <img src="Asset/img.png" alt="">
+                    </picture>
+                </article>
+                <article>
+                    <picture>
+                        <img src="Asset/img.png" alt="">
+                    </picture>
+                    <picture>
+                        <img src="Asset/img.png" alt="">
+                    </picture>
+                    <picture>
+                        <img src="Asset/img.png" alt="">
+                    </picture>
+                    <picture>
+                        <img src="Asset/img.png" alt="">
+                    </picture>
+                </article>
+                <article>
+                    <picture>
+                        <img src="Asset/img.png" alt="">
+                    </picture>
+                    <picture>
+                        <img src="Asset/img.png" alt="">
+                    </picture>
+                    <picture>
+                        <img src="Asset/img.png" alt="">
+                    </picture>
+                    <picture>
+                        <img src="Asset/img.png" alt="">
+                    </picture>
+                    <picture>
+                        <img src="Asset/img.png" alt="">
+                    </picture>
+                </article>
+            </section>
+
+            <section id="Annonce">
+                <article>
+                    <picture>
+                        <svg width="1728" height="602" viewBox="0 0 1728 602" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <g filter="url(#filter0_d_1_96)">
+                                <path
+                                    d="M1739.94 49.819C1717 28.3969 1704.77 46.1702 1706.28 50.1722C1709.31 57.3521 1683.97 35.6945 1681.83 37.107C1687.63 22.5116 1652.59 43.3453 1654.6 25.2188C1648.05 29.8093 1637.84 19.3336 1625.23 21.9231C1606.07 21.6877 1626.37 27.2198 1596.74 17.9212C1580.99 20.2753 1594.6 17.215 1565.48 14.0369C1559.3 17.215 1547.33 16.5087 1541.28 16.8618C1542.04 18.0389 1522.87 27.4552 1507.5 25.3365C1511.28 34.2821 1503.71 35.3414 1478.5 29.8093C1453.17 47.5827 1475.98 25.6897 1448.75 30.6332C1429.97 46.4056 1432.24 38.7548 1418.63 32.3988C1396.57 33.929 1372.24 42.9922 1369.47 45.464C1372.37 44.9932 1375.64 44.5223 1379.55 43.8161C1370.98 46.2879 1368.21 46.5233 1369.47 45.464C1359.63 47.1118 1354.34 48.8774 1342.99 60.5301C1339.84 73.0068 1321.57 64.179 1303.04 72.0652C1290.05 78.5389 1266.35 86.3074 1271.14 73.0068C1287.15 56.8813 1221.35 39.9319 1238.5 69.7111C1204.21 58.6469 1220.34 59.8239 1207.36 64.7675C1155.17 75.4786 1185.8 52.7616 1169.92 53.3502C1103.62 45.3463 1182.65 53.7033 1138.28 37.8132C1131.1 70.1819 1109.92 22.1585 1104.37 24.9834C1095.8 15.8025 1073.24 30.7509 1060.13 20.7461C1042.73 24.5126 1014.24 13.6838 1012.48 25.572C967.1 24.8657 977.31 28.6323 965.839 35.4591C949.704 44.7578 925.376 47.7004 924.494 46.5233C918.821 49.1128 894.745 38.8725 893.106 56.6459C883.904 55.9397 871.803 64.6498 862.601 65.356C846.718 74.5369 853.903 59.7062 827.179 68.534C819.364 54.2918 768.942 56.4105 787.85 64.6498C767.304 65.0029 748.269 60.4124 757.471 56.0574C745.244 58.6469 731.756 45.2286 728.353 36.0476C722.302 18.7451 712.47 25.8074 700.116 26.2782C685.116 18.0389 685.242 28.75 671.25 18.1566C652.09 10.7412 642.131 8.74024 631.921 9.56417C622.341 11.4474 619.693 18.0389 591.205 17.9212C572.549 38.5194 581.625 33.4581 555.91 18.8628C517.967 5.67993 531.203 21.9231 520.993 13.6838C500.068 15.4494 511.539 -0.911511 487.084 10.9766C476.621 -0.676102 461.117 22.3939 444.099 16.8618C430.99 -12.2111 424.813 17.5681 397.963 28.0437C364.811 19.3336 353.718 26.2782 356.87 39.3434C366.198 41.9328 334.81 39.8142 317.541 52.5262C283.884 44.0515 313.003 55.3511 278.085 68.2986C261.068 76.5379 249.345 69.0048 238.378 83.3648C211.15 87.9552 207.117 100.314 198.041 94.1936C182.41 106.199 166.149 103.728 156.821 97.3716C124.173 67.5924 105.391 93.3696 108.92 92.0749C96.9449 97.7247 86.9866 90.8978 63.2884 82.7762C61.6496 57.7052 27.1107 79.2451 18.1608 73.4776C-5.91563 73.9484 -8.94094 72.7714 -16 70.7704V569.954C-11.7141 569.484 -7.17618 569.013 -2.00794 568.66C-3.52059 567.129 35.9345 576.899 27.6149 579.724C47.2794 575.722 50.809 587.963 54.7166 589.611C62.406 597.85 89.2556 582.666 90.5162 594.201C81.1881 601.617 122.66 604.442 124.551 595.261C134.005 583.961 153.922 596.673 157.073 590.788C176.233 590.317 166.779 588.316 169.426 580.195C187.326 571.249 157.829 560.185 182.284 568.895C186.948 554.3 228.924 553.829 220.731 560.891C240.521 564.54 250.732 559.008 261.698 563.951C258.421 569.248 306.322 559.596 303.927 569.484C323.339 561.715 339.474 565.482 346.407 568.895C374.643 577.958 371.114 544.059 387.123 562.186C403.132 560.891 398.215 557.713 427.964 555.241C445.486 567.365 441.704 547.355 468.68 548.768C479.773 553.476 483.05 534.761 509.27 543.589C528.808 542.176 540.153 539.351 546.96 546.178C558.305 546.531 573.431 555.359 577.969 558.419C567.003 563.127 598.138 558.184 610.365 573.015C617.929 586.786 644.148 595.025 642.761 579.724C663.687 577.84 656.753 601.852 670.746 576.781C681.964 554.653 665.829 568.306 703.646 572.544C699.738 559.008 739.067 549.356 739.823 577.017C737.807 585.609 750.916 588.905 771.841 588.787C778.901 590.435 777.514 600.793 804.364 597.968C821.381 592.907 832.222 596.555 847.6 599.616C854.533 603.382 896.635 597.85 892.728 597.615C881.131 570.19 936.217 595.849 928.401 591.141C939.242 583.02 1000.63 572.073 963.57 577.841C957.772 559.126 983.613 569.719 998.614 562.774C1024.45 582.549 988.529 545.236 1034.03 551.004C1037.06 543.471 1060.25 547.708 1068.83 546.531C1087.99 536.173 1077.4 563.363 1104.88 544.766C1113.83 554.064 1133.37 527.345 1140.17 539.469C1167.4 515.104 1156.56 514.751 1162.74 530.641C1166.14 524.638 1190.59 538.41 1186.56 525.109C1190.34 527.934 1213.03 517.694 1228.66 530.523C1249.34 535.938 1238.87 549.356 1272.4 536.526C1285.51 548.061 1316.78 535.349 1322.95 534.761C1337.45 538.527 1359.51 542.176 1373.37 531.936C1385.1 531.7 1396.82 518.635 1423.8 530.406C1469.81 518.871 1470.06 553.24 1474.34 532.642C1475.1 526.875 1518.08 550.062 1510.14 541.941C1503.08 538.88 1522.5 536.526 1541.53 557.125C1529.3 572.779 1566.99 545.354 1573.93 570.896C1576.07 583.019 1614.64 553.947 1607.71 574.898C1625.11 563.481 1615.27 569.837 1640.36 570.307C1614.77 578.547 1660.4 580.548 1676.03 565.364C1697.84 552.652 1703.01 567.953 1713.97 564.069C1718.39 572.897 1734.27 561.597 1747 560.067V50.643C1744.73 50.4076 1742.59 50.1721 1740.57 49.819H1739.94Z"
+                                    fill="white" />
+                            </g>
+                            <defs>
+                                <filter id="filter0_d_1_96" x="-18" y="0.462524" width="1767" height="600.576"
+                                    filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                    <feColorMatrix in="SourceAlpha" type="matrix"
+                                        values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                                    <feOffset dy="-2" />
+                                    <feGaussianBlur stdDeviation="1" />
+                                    <feComposite in2="hardAlpha" operator="out" />
+                                    <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
+                                    <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1_96" />
+                                    <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1_96"
+                                        result="shape" />
+                                </filter>
+                            </defs>
+                        </svg>
+
+                    </picture>
+                </article>
+
+                <img src="Asset/annonceStyle2.png" alt="">
+                <article>
+                    <p>Rejoignez la première plateforme gratuite dédiée aux annonces . Particuliers et professionnels se
+                        rassemblent pour partager, inspirer et découvrir des annonces remarquables dans divers domaines.
+                    </p>
+
+                    <div>
+                        <p>C’est le moment de publier</p>
+                        <button class="btn-ctp">Ajouter une annonce</button>
+                    </div>
+                </article>
+
+
+                <img src="Asset/annonceStyle.png" alt="">
+
+            </section>
+
+            <section id="Annoncepoint">
+                <article>
+                    <p>Qu’est ce que Annoncepoint ?</p>
+                    <p>Un Réseau Gratuit pour Voir et Partager des Annonces</p>
+                    <p> <span>Annoncepoint</span> est le premier réseau communautaire entièrement gratuit qui vous
+                        permet de découvrir et
+                        de partager des annonces . Que vous soyez un particulier montrant vos annoncess personnels ou un
+                        professionnel affichant votre expertise, notre plateforme est l'endroit idéal pour vous
+                        connecter et
+                        inspirer.</p>
+                </article>
+
+                <article>
+                    <picture>
+                        <figure>
+                            <i>
+                                <svg width="31" height="32" viewBox="0 0 31 32" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M23.9481 32H23.1892V24.0946C23.1892 20.3506 20.6447 17.1336 16.9998 16.2693C16.8417 16.2314 16.7247 16.0975 16.7099 15.9362C16.6941 15.7739 16.7847 15.62 16.9334 15.5536C18.5324 14.8421 19.5643 13.2547 19.5643 11.5103C19.5643 9.06907 17.5784 7.08218 15.1373 7.08218C12.6961 7.08218 10.7092 9.06802 10.7092 11.5103C10.7092 13.2547 11.7422 14.8432 13.3401 15.5536C13.4887 15.62 13.5794 15.7739 13.5636 15.9362C13.5488 16.0975 13.4318 16.2324 13.2737 16.2693C9.62878 17.1336 7.08429 20.3506 7.08429 24.0946V32H6.32432V24.0946C6.32432 20.3084 8.70332 17.0135 12.2112 15.7897C10.8135 14.8337 9.94921 13.2379 9.94921 11.5092C9.94921 9.43905 11.1687 7.64716 12.928 6.81656C13.1346 6.29902 13.2389 5.75091 13.2389 5.18594C13.2389 2.74475 11.2531 0.757864 8.81188 0.757864C6.3707 0.757864 4.38381 2.7437 4.38381 5.18594C4.38381 6.93145 5.41678 8.51886 7.01472 9.22929C7.1644 9.2957 7.25294 9.44959 7.23818 9.61191C7.22343 9.77318 7.10643 9.9081 6.94832 9.94499C3.3034 10.8093 0.758918 14.0263 0.758918 17.7703V25.6757H0V17.7703C0 13.9841 2.379 10.6892 5.88689 9.4654C4.48921 8.50937 3.62594 6.91354 3.62594 5.18594C3.62594 2.3263 5.95224 0 8.81188 0C11.6715 0 13.9978 2.3263 13.9978 5.18594C13.9978 5.63075 13.943 6.06713 13.8323 6.48981C14.6661 6.27372 15.6063 6.27372 16.439 6.48981C16.3294 6.06713 16.2735 5.63075 16.2735 5.18594C16.2735 2.3263 18.6009 0 21.4605 0C24.3202 0 26.6475 2.3263 26.6475 5.18594C26.6475 6.91459 25.7832 8.51043 24.3855 9.46645C27.8945 10.6902 30.2735 13.9852 30.2735 17.7713V25.6757H29.5135V17.7703C29.5135 14.0263 26.969 10.8093 23.3241 9.94499C23.166 9.90705 23.049 9.77318 23.0342 9.61191C23.0184 9.44959 23.1091 9.2957 23.2577 9.22929C24.8556 8.5178 25.8875 6.9304 25.8875 5.18594C25.8875 2.74475 23.9017 0.757864 21.4605 0.757864C19.0193 0.757864 17.0335 2.7437 17.0335 5.18594C17.0335 5.75091 17.1378 6.29902 17.3444 6.81762C19.1037 7.64926 20.3232 9.4401 20.3232 11.5103C20.3232 13.2389 19.4589 14.8347 18.0612 15.7908C21.5701 17.0145 23.9491 20.3095 23.9491 24.0957L23.9481 32Z"
+                                        fill="black" />
+                                </svg>
+
+                            </i>
+                            <p>
+                                <span>Pour les particuliers</span>
+                                <span>Partagez Gratuitement Vos Réalisations et Vendez les Autres</span>
+                            </p>
+
+                        </figure>
+
+                        <p>
+                            Vous avez réalisé une annonce impressionnante ? Sur Annoncepoint, vous pouvez gratuitement
+                            partager vos photos et vidéos , inspirer la communauté, et vender vos réussites
+                            personnelles. Que ce soit une rénovation de maison, une perte de poids, ou autre chose,
+                            chaque annonce mérite d’être célébrée.</p>
+                    </picture>
+                    <picture>
+                        <figure>
+                            <i>
+                                <svg width="32" height="34" viewBox="0 0 32 34" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M31.5978 33.9687H15.9994C15.7777 33.9687 15.5983 33.7907 15.5983 33.5706V22.5128C15.5983 22.2927 15.7777 22.1147 15.9994 22.1147H20.055V19.1954C20.055 18.9753 20.2344 18.7973 20.4561 18.7973H27.1411C27.3628 18.7973 27.5422 18.9753 27.5422 19.1954V22.1147H31.5978C31.8195 22.1147 31.9989 22.2927 31.9989 22.5128V33.5706C31.9989 33.7907 31.8195 33.9687 31.5978 33.9687ZM16.4005 33.1726H31.1967V27.334H26.4281V28.0417C26.4281 28.2618 26.2487 28.4398 26.0269 28.4398H21.5703C21.3486 28.4398 21.1692 28.2618 21.1692 28.0417V27.334H16.4005V33.1726ZM21.9714 27.6436H25.6247V26.2282H21.9714V27.6436ZM26.4281 26.5378H31.1956V22.9108H16.4005V26.5367H21.1692V25.8301C21.1692 25.6101 21.3486 25.432 21.5703 25.432H26.0269C26.2487 25.432 26.4281 25.6101 26.4281 25.8301V26.5378ZM20.8572 22.1147H26.7389V19.5935H20.8572V22.1147ZM7.4872 33.5706H6.685V25.2772C6.685 21.3052 9.19968 17.8485 12.9087 16.5647C11.4314 15.5618 10.5177 13.8876 10.5177 12.0752C10.5177 9.90345 11.8068 8.02361 13.6664 7.15224C13.8848 6.6082 13.9951 6.03319 13.9951 5.44048C13.9951 2.87947 11.896 0.795062 9.31444 0.795062C6.73291 0.795062 4.63382 2.87837 4.63382 5.44048C4.63382 7.27056 5.72571 8.93699 7.41478 9.68229C7.573 9.75195 7.6677 9.9134 7.65099 10.0837C7.63539 10.2529 7.51172 10.3944 7.34459 10.4331C3.4918 11.3399 0.8022 14.7158 0.8022 18.6425V26.9359H0V18.6425C0 14.6705 2.51468 11.2138 6.22262 9.92999C4.74524 8.92704 3.83274 7.25287 3.83274 5.44048C3.83274 2.44048 6.2917 0 9.31444 0C12.3372 0 14.7961 2.44048 14.7961 5.44048C14.7961 5.90713 14.7382 6.36382 14.6212 6.80834C15.5014 6.58166 16.4964 6.58166 17.3766 6.80834C17.2607 6.36492 17.2016 5.90713 17.2016 5.44048C17.2016 2.44048 19.6617 0 22.6844 0C25.7072 0 28.1673 2.44048 28.1673 5.44048C28.1673 7.25287 27.2536 8.92814 25.7763 9.93109C29.4853 11.216 32 14.676 32 18.6525V19.1954H31.1967V18.6513C31.1967 14.7192 28.5071 11.3399 24.6554 10.4331C24.4883 10.3933 24.3646 10.2529 24.349 10.0837C24.3323 9.9134 24.4281 9.75195 24.5852 9.68339C26.2732 8.93588 27.364 7.27056 27.364 5.44048C27.364 2.87947 25.2649 0.795062 22.6844 0.795062C20.104 0.795062 18.0049 2.87837 18.0049 5.44048C18.0049 6.03319 18.1152 6.6082 18.3336 7.15224C20.1932 8.02471 21.4823 9.90345 21.4823 12.0752C21.4823 13.1113 21.187 14.1187 20.6288 14.9868C20.0472 15.8946 19.2149 16.6067 18.2255 17.0446L17.8991 16.3181C18.7459 15.9444 19.4545 15.3362 19.9525 14.5599C20.4283 13.8179 20.6789 12.9598 20.6789 12.0752C20.6789 9.51421 18.5799 7.4298 15.9994 7.4298C13.419 7.4298 11.3199 9.5131 11.3199 12.0752C11.3199 13.9064 12.4118 15.5717 14.1009 16.317C14.258 16.3867 14.3527 16.5481 14.3371 16.7184C14.3215 16.8876 14.1978 17.0292 14.0307 17.0679C10.1779 17.9746 7.4872 21.3495 7.4872 25.2772V33.5706Z"
+                                        fill="black" />
+                                </svg>
+
+                            </i>
+                            <p><span>Pour les professionnels</span><span>Vendez Votre Expertise et Attirez de Nouveaux
+                                    Clients Tout Cela Gratuitement</span></p>
+
+                        </figure>
+
+                        <p>
+                            Vous êtes un artisan, un médecin ou un professionnel dans un autre domaine ? Annoncepoint
+                            vous permet de publier gratuitement vos annoncess , offrant une vitrine idéale pour attirer
+                            de nouveaux clients tout en montrant votre savoir-faire.</p>
+                    </picture>
+                </article>
+            </section>
+
+            <section id="AnnonceExplore">
+                <article>
+                    <picture>
+                        <img src="Asset/style1.png" alt="">
+                        <p>Décoration</p>
+                        <p>Transformez votre espace</p>
+                    </picture>
+                </article>
+                <article>
+                    <picture>
+                        <img src="Asset/style1.png" alt="">
+
+                        <p>Fitness</p>
+                        <p>Chaque effort compte</p>
+                    </picture>
+                    <picture>
+                        <img src="Asset/style1.png" alt="">
+
+                        <p>Mode</p>
+                        <p>Votre style, votre évolution</p>
+                    </picture>
+                </article>
+                <article>
+                    <picture>
+                        <img src="Asset/style1.png" alt="">
+
+                        <p>Cosmétiques</p>
+                        <p>Redécouvrez votre beauté</p>
+                    </picture>
+                    <picture id="info">
+                        <p>Explorez les annonces</p>
+                        <p>Une Source d’Inspiration Gratuite à Chaque Clic</p>
+                        <p>Parcourez des centaines de annonces s sur la première plateforme communautaire gratuite
+                            dédiée à ce domaine. Que vous cherchiez des idées pour votre prochain annonces ou que vous
+                            souhaitiez simplement admirer les résultats des autres, notre galerie est là pour vous
+                            inspirer.</p>
+                    </picture>
+                    <picture>
+                        <img src="Asset/style1.png" alt="">
+
+                        <p>Lifestyle et bien-être</p>
+                        <p>Transformez votre quotidien</p>
+                    </picture>
+                </article>
+
+                <article>
+                    <picture>
+                        <img src="Asset/style1.png" alt="">
+
+                        <p>Animaux de compagnie</p>
+                        <p>Le bien-être de vos compagnons</p>
+                    </picture>
+                    <picture>
+                        <img src="Asset/style1.png" alt="">
+
+                        <p>Immobilier</p>
+                        <p> Transformez vos espaces de vie</p>
+                    </picture>
+                </article>
+
+                <article>
+                    <picture>
+                        <img src="Asset/style1.png" alt="">
+
+                        <p>Automobile</p>
+                        <p>Redonner vie à votre véhicule</p>
+                    </picture>
+                </article>
+            </section>
+
+
+            <section id="paginnation">
+                <article>
+                    <p>Dérnières annonces</p>
+                </article>
+                <article>
+                    <i class="bi-arrow-left"></i>
+                    <ul>
+                        <li>
+                            <img src="Asset/paginnation.png" alt="">
+                        </li>
+                        <li>
+                            <img src="Asset/paginnation.png" alt="">
+                        </li>
+                        <li>
+                            <img src="Asset/paginnation.png" alt="">
+                        </li>
+                        <li>
+                            <img src="Asset/paginnation.png" alt="">
+                        </li>
+                    </ul>
+                    <i class="bi-arrow-right"></i>
+                </article>
+            </section>
+
+
+            <section id="Explore">
+                <article>
+                    <p>Explorez les talents qui transforment</p>
+                    <p>Explorez les talents qui transforment Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                        Fugit, velit?</p>
+                </article>
+                <article>
+                    <picture>
+                        <img src="Asset/image.png" alt="">
+                        <figcaption>
+                            <p>Lorem, ipsum.</p>
+                            <p>Lorem, ipsum.</p>
+                            <span>
+                                <i class="bi-star-fill"></i>
+                                <i class="bi-star-fill"></i>
+                                <i class="bi-star-fill"></i>
+                            </span>
+                        </figcaption>
+                    </picture>
+                    <picture>
+                        <img src="Asset/image.png" alt="">
+                        <figcaption>
+                            <p>Lorem, ipsum.</p>
+                            <p>Lorem, ipsum.</p>
+                            <span>
+                                <i class="bi-star-fill"></i>
+                                <i class="bi-star-fill"></i>
+                                <i class="bi-star-fill"></i>
+                            </span>
+                        </figcaption>
+                    </picture>
+                    <picture>
+                        <img src="Asset/image.png" alt="">
+                        <figcaption>
+                            <p>Lorem, ipsum.</p>
+                            <p>Lorem, ipsum.</p>
+                            <span>
+                                <i class="bi-star-fill"></i>
+                                <i class="bi-star-fill"></i>
+                                <i class="bi-star-fill"></i>
+                            </span>
+                        </figcaption>
+                    </picture>
+                    <picture>
+                        <img src="Asset/image.png" alt="">
+                        <figcaption>
+                            <p>Lorem, ipsum.</p>
+                            <p>Lorem, ipsum.</p>
+                            <span>
+                                <i class="bi-star-fill"></i>
+                                <i class="bi-star-fill"></i>
+                                <i class="bi-star-fill"></i>
+                            </span>
+                        </figcaption>
+                    </picture>
+                    <picture>
+                        <img src="Asset/image.png" alt="">
+                        <figcaption>
+                            <p>Lorem, ipsum.</p>
+                            <p>Lorem, ipsum.</p>
+                            <span>
+                                <i class="bi-star-fill"></i>
+                                <i class="bi-star-fill"></i>
+                                <i class="bi-star-fill"></i>
+                            </span>
+                        </figcaption>
+                    </picture>
+                    <picture>
+                        <img src="Asset/image.png" alt="">
+                        <figcaption>
+                            <p>Lorem, ipsum.</p>
+                            <p>Lorem, ipsum.</p>
+                            <span>
+                                <i class="bi-star-fill"></i>
+                                <i class="bi-star-fill"></i>
+                                <i class="bi-star-fill"></i>
+                            </span>
+                        </figcaption>
+                    </picture>
+                </article>
+            </section>
+
+
+            <section id="communaute">
+                <article>
+                    <p>Rejoignez Notre Communauté! C'est Gratuit</p>
+                    <p>Partagez, Connectez, et Célébrez Ensemble</p>
+                    <p>Inscrivez-vous gratuitement aujourd'hui pour partager vos propres annonces, suivre et échanger
+                        avec une communauté passionnée. Annoncepoint est le premier réseau communautaire où chaque
+                        annonce compte, et c'est totalement gratuit.</p>
+                    <button>Créer un compte gratuitement</button>
+                </article>
+            </section>
+
+            <section id="temoignage">
+                <article>
+                    <p>Témoignages</p>
+                    <p>Ce Que Nos Membres Disent de Annoncepoint</p>
+                </article>
+                <article>
+                    <figure>
+                        <picture>
+                            <img src="Asset/image.png" alt="">
+                            <figcaption>
+                                <p>Lorem, ipsum.</p>
+                                <p>Lorem, ipsum.</p>
+                                <span>
+                                    <i class="bi-star-fill"></i>
+                                    <i class="bi-star-fill"></i>
+                                    <i class="bi-star-fill"></i>
+                                </span>
+                            </figcaption>
+                            <img src="Asset/quote.png" alt="" id="quotes">
+                        </picture>
+
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam provident eius quidem.
+                            Praesentium rem ex ullam maiores enim qui itaque.</p>
+                    </figure>
+                    <figure>
+                        <picture>
+                            <img src="Asset/image.png" alt="">
+                            <figcaption>
+                                <p>Lorem, ipsum.</p>
+                                <p>Lorem, ipsum.</p>
+                                <span>
+                                    <i class="bi-star-fill"></i>
+                                    <i class="bi-star-fill"></i>
+                                    <i class="bi-star-fill"></i>
+                                </span>
+                            </figcaption>
+                            <img src="Asset/quote.png" alt="" id="quotes">
+                        </picture>
+
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam provident eius quidem.
+                            Praesentium rem ex ullam maiores enim qui itaque.</p>
+                    </figure>
+                </article>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer>
+            <section>
+                <svg viewBox="0 0 1728 402" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M-5.03321 371.437C17.6095 385.872 29.6772 373.896 28.1843 371.199C25.1985 366.361 50.205 380.955 52.3199 380.003C46.597 389.838 81.183 375.799 79.1924 388.014C85.6617 384.92 95.7389 391.979 108.18 390.234C127.09 390.393 107.06 386.665 136.297 392.931C151.848 391.345 138.412 393.407 167.151 395.548C173.247 393.407 185.066 393.883 191.037 393.645C190.291 392.852 209.201 386.507 224.379 387.934C220.647 381.906 228.111 381.193 252.994 384.92C278 372.944 255.482 387.696 282.354 384.365C300.891 373.737 298.652 378.892 312.088 383.175C333.86 382.144 357.871 376.037 360.608 374.371C357.747 374.689 354.512 375.006 350.656 375.482C359.115 373.816 361.852 373.658 360.608 374.371C370.312 373.261 375.537 372.071 386.734 364.219C389.845 355.812 407.884 361.76 426.172 356.446C438.987 352.084 462.376 346.849 457.648 355.812C441.848 366.678 506.79 378.099 489.87 358.033C523.71 365.488 507.786 364.695 520.6 361.364C572.106 354.146 541.874 369.454 557.549 369.057C622.989 374.451 544.984 368.819 588.776 379.527C595.868 357.715 616.769 390.076 622.243 388.172C630.703 394.359 652.972 384.286 665.911 391.027C683.079 388.489 711.196 395.786 712.938 387.776C757.725 388.251 747.648 385.713 758.969 381.113C774.894 374.847 798.905 372.864 799.776 373.658C805.374 371.913 829.137 378.813 830.754 366.837C839.836 367.312 851.779 361.443 860.861 360.967C876.537 354.781 869.446 364.774 895.821 358.826C903.534 368.423 953.298 366.995 934.637 361.443C954.915 361.205 973.701 364.298 964.619 367.233C976.687 365.488 989.999 374.53 993.358 380.717C999.33 392.376 1009.03 387.617 1021.23 387.3C1036.03 392.852 1035.91 385.634 1049.72 392.772C1068.63 397.769 1078.45 399.118 1088.53 398.562C1097.99 397.293 1100.6 392.852 1128.72 392.931C1147.13 379.051 1138.17 382.461 1163.55 392.296C1201 401.18 1187.94 390.234 1198.01 395.786C1218.66 394.597 1207.34 405.621 1231.48 397.611C1241.81 405.463 1257.11 389.917 1273.9 393.645C1286.84 413.236 1292.94 393.169 1319.44 386.11C1352.16 391.979 1363.11 387.3 1359.99 378.496C1350.79 376.751 1381.77 378.178 1398.81 369.613C1432.03 375.323 1403.29 367.709 1437.75 358.984C1454.55 353.432 1466.12 358.508 1476.94 348.832C1503.81 345.739 1507.79 337.411 1516.75 341.535C1532.18 333.445 1548.23 335.111 1557.43 339.394C1589.66 359.46 1608.19 342.09 1604.71 342.963C1616.53 339.156 1626.36 343.756 1649.75 349.229C1651.36 366.123 1685.45 351.608 1694.28 355.494C1718.05 355.177 1721.03 355.97 1728 357.319L1728 20.9458C1723.77 21.2631 1719.29 21.5803 1714.19 21.8183C1715.68 22.8493 1676.74 16.2663 1684.95 14.3627C1665.55 17.0594 1662.06 8.81071 1658.21 7.70029C1650.62 2.14829 1624.12 12.3799 1622.87 4.60703C1632.08 -0.389793 1591.15 -2.29332 1589.28 3.8932C1579.95 11.5074 1560.3 2.94139 1557.18 6.90712C1538.27 7.22438 1547.61 8.57277 1544.99 14.0455C1527.33 20.0734 1556.44 27.5289 1532.3 21.6597C1527.7 31.4946 1486.27 31.8119 1494.36 27.053C1474.83 24.5943 1464.75 28.3221 1453.92 24.9909C1457.16 21.4217 1409.88 27.9255 1412.25 21.2631C1393.09 26.4979 1377.16 23.9598 1370.32 21.6597C1342.45 15.5525 1345.94 38.395 1330.14 26.1806C1314.34 27.053 1319.19 29.1946 1289.83 30.8601C1272.53 22.6907 1276.27 36.1742 1249.64 35.2225C1238.69 32.0498 1235.46 44.6609 1209.58 38.7123C1190.3 39.6641 1179.1 41.5676 1172.38 36.9674C1161.19 36.7295 1146.26 30.7809 1141.78 28.7187C1152.6 25.5461 1121.87 28.8773 1109.81 18.8837C1102.34 9.60388 1076.46 4.05191 1077.83 14.3628C1057.18 15.6318 1064.02 -0.548343 1050.21 16.3456C1039.14 31.2568 1055.07 22.0562 1017.74 19.2009C1021.6 28.3221 982.783 34.8259 982.037 16.187C984.027 10.3971 971.089 8.17624 950.437 8.25556C943.47 7.14515 944.838 0.165443 918.339 2.06901C901.543 5.47953 890.844 3.02079 875.666 0.958632C868.824 -1.57945 827.271 2.14836 831.127 2.30699C842.573 20.7873 788.206 3.49669 795.919 6.66927C785.22 12.142 724.632 19.5182 761.209 15.6318C766.932 28.2428 741.428 21.1045 726.623 25.7841C701.119 12.4593 736.576 37.602 691.664 33.7155C688.678 38.7917 665.786 35.9363 657.326 36.7295C638.416 43.7092 648.867 25.3875 621.745 37.9192C612.912 31.6534 593.628 49.6578 586.91 41.4884C560.038 57.9065 570.737 58.1444 564.641 47.437C561.282 51.482 537.146 42.2022 541.127 51.1647C537.395 49.2612 515.001 56.1616 499.574 47.5163C479.171 43.8678 489.497 34.8259 456.404 43.4712C443.465 35.6984 412.612 44.2644 406.516 44.661C392.208 42.1229 370.437 39.6642 356.752 46.5645C345.181 46.7231 333.611 55.5271 306.987 47.5956C261.578 55.3684 261.329 32.2086 257.099 46.0887C256.353 49.9751 213.929 34.3501 221.766 39.8228C228.733 41.885 209.574 43.4713 190.788 29.5912C202.856 19.0424 165.658 37.5227 158.815 20.3114C156.7 12.142 118.63 31.7327 125.473 17.6147C108.304 25.3082 118.008 21.0253 93.2508 20.708C118.506 15.156 73.4694 13.8076 58.0426 24.0392C36.5196 32.6052 31.419 22.2943 20.5953 24.9117C16.2409 18.9631 0.565397 26.5773 -12 27.6084L-12 370.882C-9.76062 371.04 -7.64575 371.199 -5.65515 371.437L-5.03321 371.437Z"
+                        fill="#F7F7F7" />
+                </svg>
+            </section>
+
+            <section>
+                <article>
+                    <img src="Asset/image.png" alt="">
+                </article>
+                <article>
+                    <div>
+                        <p>Comment ça marche?</p>
+                        <p>À propos de Annoncepoint</p>
+                        <p>Applications mobiles</p>
+                        <p>Publicités</p>
+                    </div>
+                    <div>
+                        <p>Aide</p>
+                        <p>Centre d'aide</p>
+                        <p>Partager</p>
+                        <p>Confiance et sécurité</p>
+                    </div>
+                </article>
+            </section>
+
+            <section>
+                <article>
+                    <i class="bi-facebook"></i>
+                    <i class="bi-linkedin"></i>
+                    <i class="bi-instagram"></i>
+                </article>
+                <article>
+                    <button>
+                        <i class="bi-apple"></i>
+                        <p>
+                            Télécharger sur
+                            <br><span>App Store</span>
+                        </p>
+                    </button>
+                    <button>
+                        <i>
+                            <svg width="15" height="30" viewBox="0 0 28 30" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M12.9544 14.3237L0.318176 27.5041C0.71009 28.9389 2.04021 30.0002 3.61975 30.0002C4.24919 30.0002 4.84299 29.837 5.35366 29.5336L5.38929 29.5104L19.6169 21.4505L12.9544 14.3237Z"
+                                    fill="#EA4335" />
+                                <path
+                                    d="M25.7557 12.0851H25.7439L19.6038 8.57422L12.6801 14.6279L19.6276 21.4514L25.7439 17.9871C26.8127 17.4156 27.5371 16.3075 27.5371 15.0361C27.5371 13.7647 26.8245 12.6566 25.7557 12.0968V12.0851Z"
+                                    fill="#FBBC04" />
+                                <path
+                                    d="M0.317615 2.49512C0.246357 2.77505 0.198853 3.05499 0.198853 3.35827V26.6398C0.198853 26.943 0.234481 27.223 0.317615 27.5029L13.3933 14.6608L0.317615 2.49512Z"
+                                    fill="#4285F4" />
+                                <path
+                                    d="M13.0494 15L19.5931 8.5731L5.37742 0.478227C4.86674 0.174961 4.26106 0 3.60787 0C2.04021 0 0.698213 1.06143 0.318176 2.48445L13.0494 15Z"
+                                    fill="#34A853" />
+                            </svg>
+                        </i>
+                        <p>
+                            Télécharger sur
+                            <br><span>Play Store</span>
+                        </p>
+                    </button>
+                </article>
+            </section>
+
+            <section>
+                <article>
+                    <p>Politique de confidentialité</p>
+                </article>
+                <article>
+                    <p>Politique de cookies</p>
+
+                </article>
+                <article>
+                    <p>Paramètres des cookies</p>
+
+                </article>
+                <article>
+                    <p>Termes et Conditions</p>
+
+                </article>
+                <article>
+                    <p>Notre plateforme</p>
+
+                </article>
+            </section>
+        </footer>
+    </div>
+</body>
+
+</html>
