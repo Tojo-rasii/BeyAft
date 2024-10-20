@@ -1,0 +1,52 @@
+@media screen and (max-width: 1054px) {
+    body {
+        /* background: red; */
+    }
+
+    /* HEADER */
+    nav section article:nth-child(2) {
+        margin-left: 5em;
+    }
+    header section article i {
+        display: none;
+    }
+
+    header section article p {
+        width: max-content;
+        max-width: 15vw;
+        text-wrap: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        cursor: pointer;
+    }
+
+    /* MAIN */
+    #MainHome article {
+        display: flex;
+        gap: 2em;
+    }
+
+    #MainHome img {
+        width: 15em;
+        height: 23vh;
+        object-fit: contain;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+
+    header section {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 1.5em;
+    }
+
+    header section article {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 1.5em;
+        text-align: center;
+    }
+}
