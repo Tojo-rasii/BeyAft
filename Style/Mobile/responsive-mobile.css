@@ -3,6 +3,13 @@
     .btn-ctp {
         padding: 1.5em 0 !important;
     }
+
+    footer section:nth-child(1) svg {
+        /* height: 60vh; */
+        position: absolute;
+        margin-top: -1em !important;
+        z-index: -1;
+    }
 }
 
 @media only screen and (max-width: 285px) {
@@ -15,6 +22,51 @@
         gap: 0.5em !important;
         flex-wrap: wrap;
     }
+
+    #AnnonceExplore article:is(:nth-child(1), :nth-child(2), :nth-child(4), :nth-child(5)) picture,
+    #AnnonceExplore article:nth-child(3) picture:is(:nth-child(1), :nth-child(3)) {
+        display: flex;
+        flex-direction: column !important;
+        align-items: center !important;
+        text-align: center !important;
+    }
+
+    #paginnation article:nth-child(2) ul li img {
+        width: 190px !important;
+        height: 326px !important;
+        object-fit: contain;
+    }
+
+
+
+    #Explore article:nth-child(2) {
+        width: 90%;
+        padding: 0.2em !important;
+    }
+
+    #Explore article:nth-child(2) picture {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    #communaute article {
+        background: #ffffff92;
+        padding: 5em;
+
+    }
+
+    #communaute article picture button {
+        padding: 1em !important;
+    }
+
+    footer section:nth-child(1) svg {
+        /* height: 60vh; */
+        position: absolute;
+        margin-top: -3em !important;
+        z-index: -1;
+    }
 }
 
 @media only screen and (max-width: 323px) {
@@ -26,9 +78,60 @@
         align-items: center;
     }
 
+    #sectionHeaderMobile section:nth-child(1) {
+        display: flex;
+        flex-direction: column-reverse !important;
+    }
+
     .btn-ctp {
         padding: 1.5em 2em !important;
     }
+
+    #paginnation article:nth-child(2) i:first-child {
+        margin-left: 0.2em !important;
+        position: absolute;
+        left: 0;
+    }
+
+    #paginnation article:nth-child(2) i:last-child {
+        margin-right: 0.2em !important;
+        position: absolute;
+        right: 0;
+    }
+
+    #paginnation article:nth-child(2) ul li img {
+        width: 231px;
+        height: 367px;
+        object-fit: contain;
+    }
+
+    #Explore article:nth-child(2) {
+        width: 90%;
+        padding: 0.2em !important;
+    }
+
+    footer section:nth-child(1) svg {
+        /* height: 60vh; */
+        position: absolute;
+        margin-top: -5em;
+        z-index: -1;
+    }
+
+    footer section:nth-child(3) article:nth-child(2) button {
+        height: max-content;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        text-wrap: wrap;
+        line-height: 1.5em;
+    }
+
+    footer section:nth-child(3) article:nth-child(2) button p {
+        font-size: 1.1em;
+        text-align: center !important;
+    }
+
+
 }
 
 @media only screen and (max-width: 400px) {
@@ -41,6 +144,32 @@
         cursor: pointer;
         text-wrap: wrap;
     }
+
+    #Annoncepoint article:nth-child(2) {
+        width: 100%;
+        padding: 4em 1em;
+    }
+
+    #Annoncepoint article:nth-child(2) picture {
+        width: 100% !important;
+        padding: 1.5em 2em !important;
+
+    }
+
+    #temoignage article:nth-child(2) figure picture {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 1.5em;
+        padding: 0;
+    }
+
+    #temoignage article:nth-child(2) figure picture div {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5em;
+        padding: 0;
+    }
+
 }
 
 @media only screen and (max-width: 430px) {
@@ -77,6 +206,88 @@
         display: block;
     }
 
+    #Annonce img:nth-child(2) {
+        margin-top: 4.5em;
+        margin-left: 1em;
+        left: 0;
+    }
+
+    #Annonce img:nth-child(4) {
+        right: 0;
+        margin-top: -5em;
+        margin-right: 1em;
+        width: 6em;
+        height: 15em;
+    }
+
+
+    #AnnonceExplore article {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: left !important;
+        align-items: center;
+    }
+
+
+    #AnnonceExplore article:nth-child(1) {
+        width: 100%;
+        justify-content: left !important;
+        gap: 2.5em;
+    }
+
+    #AnnonceExplore article:nth-child(2) {
+        width: 100%;
+        gap: 2.5em;
+    }
+
+    #AnnonceExplore article:nth-child(4) {
+        width: 100%;
+        gap: 2.5em;
+
+    }
+
+    #AnnonceExplore article:nth-child(5) {
+        width: 100%;
+        justify-content: left !important;
+        gap: 2.5em;
+    }
+
+    #AnnonceExplore article:is(:nth-child(1), :nth-child(2), :nth-child(4), :nth-child(5)) picture,
+    #AnnonceExplore article:nth-child(3) picture:is(:nth-child(1), :nth-child(3)) {
+        display: flex;
+        flex-direction: row;
+        text-align: left !important;
+        justify-content: start !important;
+        gap: 1.5em;
+        background: #f5f5f5;
+        width: 100%;
+        padding: 1em;
+        border-radius: 1em;
+    }
+
+    #AnnonceExplore article:nth-child(3) picture:nth-child(2) {
+        gap: 2em;
+    }
+
+    #AnnonceExplore article:nth-child(3) picture:nth-child(2) p:nth-child(3) {
+        width: 100%;
+        line-height: 1.2em;
+    }
+
+
+    #AnnonceExplore article:is(:nth-child(1), :nth-child(2), :nth-child(4), :nth-child(5)) picture div p {
+        text-align: start !important;
+    }
+
+    #paginnation article:nth-child(2) ul {
+        width: 100%;
+    }
+
+    #Explore article:nth-child(2) {
+        width: 90%;
+        padding: 1em;
+    }
 }
 
 @media only screen and (max-width: 470px) {
@@ -97,6 +308,17 @@
         padding: 2em 0.5em;
     }
 
+    #Annoncepoint article:nth-child(2) picture figure {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap !important;
+        gap: 2em;
+    }
+
+    #Annoncepoint article:nth-child(2) picture {
+        padding: 2em 2.5em;
+
+    }
 }
 
 @media only screen and (max-width: 600px) {
@@ -110,8 +332,132 @@
         padding: 2em 2em;
     }
 
+    #AnnonceExplore {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2em !important;
+    }
+
+    #AnnonceExplore article {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+    }
+
+    #paginnation article:nth-child(2) i:first-child {
+        margin-left: 1em;
+        position: absolute;
+        left: 0;
+    }
+
+    #paginnation article:nth-child(2) i:last-child {
+        margin-right: 1em;
+        position: absolute;
+        right: 0;
+    }
+}
+
+@media only screen and (max-width: 720px) {
+    #pop-up {
+        inset: 0;
+        width: 85vw;
+        top: 15%;
+    }
+
+    #pop-up div {
+        align-items: center;
+    }
+
+    #pop-up div p {
+        width: 85%;
+        text-wrap: wrap;
+    }
+
+    #pop-up div button {
+        text-wrap: wrap;
+        width: 70%;
+
+    }
+
+    #Annonce article:nth-child(3) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+        gap: 3em;
+        width: 80% !important;
+        padding-top: 20em !important;
+        text-align: center;
+    }
+
+    #Annoncepoint article:nth-child(1) {
+        width: 90%;
+    }
+
+    footer {
+        display: flex;
+        padding-top: 2em !important;
+        flex-direction: column;
+        gap: 2em;
+    }
+
+    footer section:nth-child(2) article:nth-child(2) {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+
+    footer section:nth-child(2) article:nth-child(2) div {
+        gap: 1em;
+    }
+
+    footer section:is(:nth-child(2)) {
+        display: flex;
+        flex-direction: column;
+        gap: 4em;
+        align-items: center;
+    }
+
+    footer section:is(:nth-child(3)) {
+        display: flex;
+        flex-direction: column;
+        gap: 3em;
+        padding-top: 3em;
+        padding-bottom: 4em;
+        align-items: center;
+    }
+
+    footer section:nth-child(3) article:nth-child(1) i {
+        cursor: pointer;
+        font-size: 1.3em;
+    }
+
+    footer section:nth-child(3) article:nth-child(2) {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+
+    footer section:nth-child(3) article:nth-child(1) {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    footer section:nth-child(3) article:nth-child(2) button {
+        width: 70vw;
+        justify-content: center;
+    }
+
+
 
 }
+
 
 @media only screen and (max-width: 920px) {
     html {
@@ -187,23 +533,155 @@
         border: 1.5px solid #fff;
     }
 
-    @media only screen and (max-width: 930px) {
-        html {
-            font-size: 0.8em;
-        }
-
-        header section {
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            gap: 2em;
-        }
-
-        header section article {
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            gap: 2em;
-            text-align: center;
-        }
+    #Explore article:nth-child(2) {
+        width: 90%;
+        padding: 2em;
     }
+
+    #Annonce article:nth-child(3) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+        gap: 5em;
+        width: 60%;
+        padding-top: 15em !important;
+        text-align: center;
+    }
+
+}
+
+@media only screen and (max-width: 930px) {
+    html {
+        font-size: 0.8em;
+    }
+
+    header section {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 2em;
+    }
+
+    header section article {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 2em;
+        text-align: center;
+    }
+
+    #Annoncepoint article:nth-child(2) picture figure {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        gap: 2em;
+    }
+
+    #Annoncepoint article:nth-child(2) {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 3em;
+    }
+
+
+    #Annoncepoint article:nth-child(2) picture {
+        width: 90%;
+    }
+
+    #Annoncepoint article:nth-child(2) picture:nth-child(1) {
+        margin-bottom: 0;
+        margin-top: -8em;
+
+    }
+
+
+    #Annoncepoint article:nth-child(2) picture:nth-child(2) {
+        margin-top: 0;
+        margin-bottom: -8em;
+
+    }
+
+    #AnnonceExplore article:nth-child(3) {
+        display: flex;
+        flex-direction: column;
+        gap: 6em;
+    }
+
+    #AnnonceExplore {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1em;
+    }
+
+    #info {
+        width: 95%;
+        margin-top: 0;
+    }
+
+    #AnnonceExplore article:nth-child(1) {
+        margin-bottom: 0;
+    }
+
+    #AnnonceExplore article:nth-child(5) {
+        margin-top: 0;
+    }
+
+    #paginnation article:nth-child(2) ul {
+        height: 32em;
+
+    }
+
+    #communaute article picture {
+        width: 100% !important;
+    }
+
+    #communaute article picture p:nth-child(1) {
+        width: 80vw !important;
+        line-height: 1.5em;
+    }
+
+    #communaute article picture p:nth-child(2) {
+        width: 80vw !important;
+        line-height: 1.5em;
+    }
+
+    #communaute article picture p:nth-child(3) {
+        width: 80vw !important;
+        line-height: 1.5em;
+    }
+
+    #communaute article picture button {
+        width: 70vw;
+    }
+
+
+    #temoignage article:nth-child(2) {
+        display: flex;
+        flex-direction: column !important;
+        gap: 4em;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #temoignage article:nth-child(2) figure {
+        max-height: max-content;
+        width: 90%;
+    }
+
+    footer section:last-child {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 1.5em 6em;
+        padding-bottom: 2em;
+        align-items: center;
+        text-align: center;
+        /* width: 80%; */
+        justify-content: center;
+        gap: 3em;
+    }
+}

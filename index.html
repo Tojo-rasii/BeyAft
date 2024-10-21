@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="Style/styles.css">
     <link rel="stylesheet" href="Style/main.css">
     <link rel="stylesheet" href="Style/desktop/responsive-desktop.css">
+    <link rel="stylesheet" href="Style/headerMobile.css">
     <link rel="stylesheet" href="Style/Mobile/responsive-mobile.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
 </head>
@@ -83,10 +84,49 @@
                 <article>
                     <i class="bi-search" id="i-search"></i>
                     <i class="bi-person-fill"></i>
-                    <i class="bi-list"></i>
+                    <i class="bi-list" id="show"></i>
                 </article>
             </div>
+
         </header>
+
+
+        <figure id="sectionHeaderMobile">
+            <div>
+                <section>
+                    <article>
+                        <img src="Asset/image.png" alt="Logo">
+                    </article>
+                    <article>
+                        <i class="bi-x" id="close"></i>
+                    </article>
+                </section>
+                <section>
+                    <article>
+                        <p class="bi-circle-fill">&nbsp;&nbsp;&nbsp;&nbsp;Fitness</p>
+                    </article>
+                    <article>
+                        <p class="bi-circle-fill">&nbsp;&nbsp;&nbsp;&nbsp;Lifestyle et bien-être</p>
+                    </article>
+                    <article>
+                        <p class="bi-circle-fill">&nbsp;&nbsp;&nbsp;&nbsp;Décoration</p>
+                    </article>
+                    <article>
+                        <p class="bi-circle-fill">&nbsp;&nbsp;&nbsp;&nbsp;Cosmétiques</p>
+                    </article>
+                    <article>
+                        <p class="bi-circle-fill">&nbsp;&nbsp;&nbsp;&nbsp;Automobile</p>
+                    </article>
+                    <article>
+                        <p class="bi-circle-fill">&nbsp;&nbsp;&nbsp;&nbsp;Animaux de compagnie</p>
+                    </article>
+                    <article>
+                        <p class="bi-circle-fill">&nbsp;&nbsp;&nbsp;&nbsp;Professionnels</p>
+                    </article>
+                </section>
+            </div>
+        </figure>
+
         <!-- Main -->
         <main>
             <section id="MainHome">
@@ -98,13 +138,13 @@
                         <img src="Asset/img.png" alt="">
                     </picture>
                     <picture>
-                        <img src="Asset/img.png" alt="">
+                        <img src="Asset/homeImg1.png" alt="">
                     </picture>
                     <picture>
-                        <img src="Asset/img.png" alt="">
+                        <img src="Asset/homeImg2.png" alt="">
                     </picture>
                     <picture>
-                        <img src="Asset/img.png" alt="">
+                        <img src="Asset/homeImg1.png" alt="">
                     </picture>
                 </article>
                 <article>
@@ -115,10 +155,7 @@
                         <img src="Asset/img.png" alt="">
                     </picture>
                     <picture>
-                        <img src="Asset/img.png" alt="">
-                    </picture>
-                    <picture>
-                        <img src="Asset/img.png" alt="">
+                        <img src="Asset/homeImg1.png" alt="">
                     </picture>
                 </article>
                 <article>
@@ -126,17 +163,26 @@
                         <img src="Asset/img.png" alt="">
                     </picture>
                     <picture>
-                        <img src="Asset/img.png" alt="">
+                        <img src="Asset/homeImg1.png" alt="">
                     </picture>
                     <picture>
                         <img src="Asset/img.png" alt="">
                     </picture>
                     <picture>
-                        <img src="Asset/img.png" alt="">
+                        <img src="Asset/homeImg1.png" alt="">
                     </picture>
                     <picture>
-                        <img src="Asset/img.png" alt="">
+                        <img src="Asset/homeImg1.png" alt="">
                     </picture>
+                </article>
+                <article id="pop-up">
+                    <div>
+                        <p>Le premier réseau communautaire
+                            gratuit de annonces</p>
+                        <button class="btn-ctp">
+                            Publier une annonce
+                        </button>
+                    </div>
                 </article>
             </section>
 
@@ -171,7 +217,8 @@
 
                 <img src="Asset/annonceStyle2.png" alt="">
                 <article>
-                    <p>Rejoignez la première plateforme gratuite dédiée aux annonces . Particuliers et professionnels se
+                    <p id="title">Rejoignez la première plateforme gratuite dédiée aux annonces . Particuliers et
+                        professionnels se
                         rassemblent pour partager, inspirer et découvrir des annonces remarquables dans divers domaines.
                     </p>
 
@@ -217,7 +264,7 @@
 
                         </figure>
 
-                        <p>
+                        <p id="desc">
                             Vous avez réalisé une annonce impressionnante ? Sur Annoncepoint, vous pouvez gratuitement
                             partager vos photos et vidéos , inspirer la communauté, et vender vos réussites
                             personnelles. Que ce soit une rénovation de maison, une perte de poids, ou autre chose,
@@ -239,7 +286,7 @@
 
                         </figure>
 
-                        <p>
+                        <p id="desc">
                             Vous êtes un artisan, un médecin ou un professionnel dans un autre domaine ? Annoncepoint
                             vous permet de publier gratuitement vos annoncess , offrant une vitrine idéale pour attirer
                             de nouveaux clients tout en montrant votre savoir-faire.</p>
@@ -251,30 +298,37 @@
                 <article>
                     <picture>
                         <img src="Asset/style1.png" alt="">
-                        <p>Décoration</p>
-                        <p>Transformez votre espace</p>
+                        <div>
+                            <p>Décoration</p>
+                            <p>Transformez votre espace</p>
+                        </div>
+                    </picture>
+                </article>
+                <article>
+                    <picture>
+                        <img src="Asset/style1.png" alt="">
+                        <div>
+                            <p>Fitness</p>
+                            <p>Chaque effort compte</p>
+                        </div>
+                    </picture>
+                    <picture>
+                        <img src="Asset/style1.png" alt="">
+                        <div>
+                            <p>Mode</p>
+                            <p>Votre style, votre évolution</p>
+                        </div>
                     </picture>
                 </article>
                 <article>
                     <picture>
                         <img src="Asset/style1.png" alt="">
 
-                        <p>Fitness</p>
-                        <p>Chaque effort compte</p>
-                    </picture>
-                    <picture>
-                        <img src="Asset/style1.png" alt="">
+                        <div>
 
-                        <p>Mode</p>
-                        <p>Votre style, votre évolution</p>
-                    </picture>
-                </article>
-                <article>
-                    <picture>
-                        <img src="Asset/style1.png" alt="">
-
-                        <p>Cosmétiques</p>
-                        <p>Redécouvrez votre beauté</p>
+                            <p>Cosmétiques</p>
+                            <p>Redécouvrez votre beauté</p>
+                        </div>
                     </picture>
                     <picture id="info">
                         <p>Explorez les annonces</p>
@@ -287,32 +341,37 @@
                     <picture>
                         <img src="Asset/style1.png" alt="">
 
-                        <p>Lifestyle et bien-être</p>
-                        <p>Transformez votre quotidien</p>
+                        <div>
+                            <p>Lifestyle et bien-être</p>
+                            <p>Transformez votre quotidien</p>
+                        </div>
                     </picture>
                 </article>
 
                 <article>
                     <picture>
                         <img src="Asset/style1.png" alt="">
-
-                        <p>Animaux de compagnie</p>
-                        <p>Le bien-être de vos compagnons</p>
+                        <div>
+                            <p>Animaux de compagnie</p>
+                            <p>Le bien-être de vos compagnons</p>
+                        </div>
                     </picture>
                     <picture>
                         <img src="Asset/style1.png" alt="">
-
-                        <p>Immobilier</p>
-                        <p> Transformez vos espaces de vie</p>
+                        <div>
+                            <p>Immobilier</p>
+                            <p> Transformez vos espaces de vie</p>
+                        </div>
                     </picture>
                 </article>
 
                 <article>
                     <picture>
                         <img src="Asset/style1.png" alt="">
-
-                        <p>Automobile</p>
-                        <p>Redonner vie à votre véhicule</p>
+                        <div>
+                            <p>Automobile</p>
+                            <p>Redonner vie à votre véhicule</p>
+                        </div>
                     </picture>
                 </article>
             </section>
@@ -346,8 +405,8 @@
             <section id="Explore">
                 <article>
                     <p>Explorez les talents qui transforment</p>
-                    <p>Explorez les talents qui transforment Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                        Fugit, velit?</p>
+                    <p>Des coachs de vie aux cliniques esthétiques, en passant par les artisans de la rénovation,
+                        découvrez les talents qui transforment vos annoncess en réalité.</p>
                 </article>
                 <article>
                     <picture>
@@ -455,12 +514,16 @@
 
             <section id="communaute">
                 <article>
-                    <p>Rejoignez Notre Communauté! C'est Gratuit</p>
-                    <p>Partagez, Connectez, et Célébrez Ensemble</p>
-                    <p>Inscrivez-vous gratuitement aujourd'hui pour partager vos propres annonces, suivre et échanger
-                        avec une communauté passionnée. Annoncepoint est le premier réseau communautaire où chaque
-                        annonce compte, et c'est totalement gratuit.</p>
-                    <button>Créer un compte gratuitement</button>
+                    <picture>
+                        <p>Rejoignez Notre Communauté! C'est Gratuit</p>
+                        <p>Partagez, Connectez, et Célébrez Ensemble</p>
+                        <p>Inscrivez-vous gratuitement aujourd'hui pour partager vos propres annonces, suivre et
+                            échanger
+                            avec une communauté passionnée. Annoncepoint est le premier réseau communautaire où chaque
+                            annonce compte, et c'est totalement gratuit.</p>
+                        <button>Créer un compte gratuitement</button>
+                    </picture>
+
                 </article>
             </section>
 
@@ -472,39 +535,46 @@
                 <article>
                     <figure>
                         <picture>
-                            <img src="Asset/profileTemoignage.png" alt="">
-                            <figcaption>
-                                <p>Lorem, ipsum.</p>
-                                <p>Lorem, ipsum.</p>
-                                <span>
-                                    <i class="bi-star-fill"></i>
-                                    <i class="bi-star-fill"></i>
-                                    <i class="bi-star-fill"></i>
-                                </span>
-                            </figcaption>
+                            <div>
+                                <img src="Asset/profileTemoignage.png" alt="">
+                                <figcaption>
+                                    <p>Marc</p>
+                                    <p>Artisan en renovation</p>
+                                    <span>
+                                        <i class="bi-star-fill"></i>
+                                        <i class="bi-star-fill"></i>
+                                        <i class="bi-star-fill"></i>
+                                        <i class="bi-star-fill silver"></i>
+                                        <i class="bi-star-fill silver"></i>
+                                    </span>
+                                </figcaption>
+                            </div>
                             <img src="Asset/quote.png" alt="" id="quotes">
                         </picture>
 
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam provident eius quidem.
-                            Praesentium rem ex ullam maiores enim qui itaque.</p>
+                        <p id="desc1">Grâce à Annoncepoint, bnal sdf blanv.</p>
                     </figure>
                     <figure>
                         <picture>
-                            <img src="Asset/profileTemoignage2s.png" alt="">
-                            <figcaption>
-                                <p>Lorem, ipsum.</p>
-                                <p>Lorem, ipsum.</p>
-                                <span>
-                                    <i class="bi-star-fill"></i>
-                                    <i class="bi-star-fill"></i>
-                                    <i class="bi-star-fill"></i>
-                                </span>
-                            </figcaption>
+                            <div>
+                                <img src="Asset/profileTemoignage2s.png" alt="">
+                                <figcaption>
+                                    <p>Claire</p>
+                                    <p>Utilisatrice</p>
+                                    <span>
+                                        <i class="bi-star-fill"></i>
+                                        <i class="bi-star-fill"></i>
+                                        <i class="bi-star-fill"></i>
+                                        <i class="bi-star-fill"></i>
+                                        <i class="bi-star-fill"></i>
+                                    </span>
+                                </figcaption>
+                            </div>
                             <img src="Asset/quote.png" alt="" id="quotes">
                         </picture>
 
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam provident eius quidem.
-                            Praesentium rem ex ullam maiores enim qui itaque.</p>
+                        <p id="desc1">Voir les annonces des autres m'a vraiment motivé à m'engager dans mon propre
+                            annonces de remise en forme. Le fait que tout soit gratuit est un énorme plus.</p>
                     </figure>
                 </article>
             </section>
@@ -532,7 +602,7 @@
                         <p>Publicités</p>
                     </div>
                     <div>
-                        <p>Aide</p>
+                        <p class="bold">Aide</p>
                         <p>Centre d'aide</p>
                         <p>Partager</p>
                         <p>Confiance et sécurité</p>
@@ -601,6 +671,8 @@
             </section>
         </footer>
     </div>
+
+    <script src="Javascript/script.js"></script>
 </body>
 
 </html>

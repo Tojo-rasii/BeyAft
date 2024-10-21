@@ -7,6 +7,7 @@
     nav section article:nth-child(2) {
         margin-left: 5em;
     }
+
     header section article i {
         display: none;
     }
@@ -31,6 +32,25 @@
         height: 23vh;
         object-fit: contain;
     }
+
+    #Annoncepoint article:nth-child(2) picture {
+        display: flex;
+        flex-direction: column;
+        padding: 1.5em 2em !important;
+        gap: 1.5em;
+        padding-bottom: 2em;
+    }
+
+    #Annoncepoint article:nth-child(2) picture figure {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 1.5em;
+    }
+
+    #temoignage article:nth-child(2) figure {
+        width: 45%;
+    }
 }
 
 @media screen and (max-width: 1200px) {
@@ -48,5 +68,23 @@
         align-items: center;
         gap: 1.5em;
         text-align: center;
+    }
+
+    #title {
+        width: 90%;
+    }
+
+    #Annonce img:nth-child(2) {
+        margin-top: 4.5em;
+        margin-left: 2.5em;
+        left: 0;
+    }
+
+    #Annonce img:nth-child(4) {
+        right: 0;
+        margin-top: -5em;
+        margin-right: 2.5em;
+        width: 6em;
+        height: 15em;
     }
 }
