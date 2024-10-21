@@ -131,6 +131,24 @@
         text-align: center !important;
     }
 
+    #underline {
+        padding: 0.3em;
+        width: 23vw;
+        background: #81BAC0;
+        position: absolute;
+        z-index: -9999;
+        margin-top: -0.6em;
+    }
+    
+    #underline2 {
+        padding: 0.3em;
+        width: 25.7vw;
+        background: linear-gradient(156.6deg, #EF7A64 -8.29%, #FAC16F 101.3%);
+        position: absolute;
+        z-index: -9999;
+        margin-top: -0.6em;
+    }
+
 
 }
 
